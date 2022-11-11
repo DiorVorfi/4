@@ -1,0 +1,57 @@
+div.main {
+    background: rgba(240, 240, 250, 1);
+    min-height: 200pt;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+.flex1a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex4 {
+    display: flex;
+    flex-flow: column;
+
+}
+
+
+/* color & stylings */
+
+h2 {
+    padding-top: 20pt;
+}
+
+header {
+    background-color: rgba(200, 200, 200, 1);
+}
+
+article {
+    background-color: rgba(200, 200, 200, .7);
+}
+
+aside {
+    background-color: rgba(200, 200, 200, .45);
+}
+
+footer {
+    background-color: rgba(200, 200, 200, .2);
+}
